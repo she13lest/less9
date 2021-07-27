@@ -13,22 +13,20 @@
 
 .navigation {
   height: 40px;
+  position: relative;
+  display: inline-block;
+  bottom: 16px;
 }
 
 .nav-list {
-  margin-left: 16px;
   color: white;
-  list-style-type: none;
+  line-height: 250%;
 }
 
 .nav-item {
-  position: relative;
-  margin: 0;
-  padding: 0;
   float: left;
-  display: block;
-  line-height: 8px;
-  margin-right: 16px;
+  list-style-type: none;
+  margin-left: 16px;
 }
 
 .content {
