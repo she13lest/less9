@@ -39,8 +39,9 @@
   width: 200px;
   height: 200px;
   background-color: aquamarine;
-  margin-left: auto;
-  margin-right: auto;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+  position: absolute;
 }
 
 .ear {
@@ -50,19 +51,30 @@
 }
 
 .ear_right {
+  position: absolute;
+  top: -60px;
+  right: -40px;
 }
-.ear ear_left {
+.ear_left {
+  position: absolute;
+  top: -60px;
+  left: -40px;
 }
 
 .eye {
   background-color: grey;
-  border-radius: 30px;
-  margin-top: 80px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
 }
 
 .eye_right {
-  margin-right: 40px;
+  position: absolute;
+  right: 40px;
+  top: 80px;
 }
 .eye_left {
-  margin-left: 40px;
+  position: absolute;
+  left: 40px;
+  top: 80px;
 }
