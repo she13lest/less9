@@ -8,6 +8,7 @@
   height: 40px;
   position: fixed;
   margin-top: 0%;
+  z-index: 1;
 }
 
 .navigation {
@@ -33,6 +34,7 @@
 .content {
   background-color: beige;
   height: 5000px;
+  z-index: 2;
 }
 
 .head {
