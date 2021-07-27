@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: darkturquoise;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  margin-top: 0%;
+}
+
+.navigation {
+  height: 40px;
+}
+
+.nav-list {
+  margin-left: 16px;
+  color: white;
+  list-style-type: none;
+}
+
+.nav-item {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  line-height: 8px;
+  margin-right: 16px;
+}
+
+.content {
+  background-color: beige;
+  height: 5000px;
+}
+
+.head {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ear {
+  background-color: brown;
+  width: 40px;
+  height: 60px;
+}
+
+.ear_right {
+}
+.ear ear_left {
+}
+
+.eye {
+  background-color: grey;
+  border-radius: 30px;
+  margin-top: 80px;
+}
+
+.eye_right {
+  margin-right: 40px;
+}
+.eye_left {
+  margin-left: 40px;
+}
